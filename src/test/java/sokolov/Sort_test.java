@@ -2,6 +2,7 @@ package sokolov;
 
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.util.*;
@@ -12,7 +13,7 @@ public class Sort_test
     private List<String> def_input;
     private List<String> custom_input;
 
-    @Before
+    @BeforeClass
     public void init(){
         def_input = Arrays.asList(
                 "K1\\SK1",
