@@ -10,11 +10,11 @@ import java.util.*;
 
 public class Sort_test
 {
-    private List<String> def_input;
-    private List<String> custom_input;
+    private static List<String> def_input;
+    private static List<String> custom_input;
 
     @BeforeClass
-    public void init(){
+    public static void init(){
         def_input = Arrays.asList(
                 "K1\\SK1",
                 "K1\\SK2",
